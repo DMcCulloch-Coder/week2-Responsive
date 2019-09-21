@@ -189,7 +189,7 @@ a:hover {
 hr {
     width: 900px;
     text-align: center;
-    color: #bbbbbb;
+    color: #cccccc;
 
 }
 
@@ -276,8 +276,52 @@ hr {
 
     }
 
+    #footerWrap {
+        width: auto;
 
+    }
 
+    hr {
+        width: auto;
+        margin: 0px 20px;
+    }
+
+    .lineInput {
+        width: auto;
+        margin: 0px 30px;
+    }
+
+    .projectWrapper {
+        width: 220px;
+    }
+
+    .contactForm {
+        width: auto;
+    }
+
+    .textInput, .lineInput {
+        width: 100%;
+
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    #myName {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+
+    }
+    
+    #profilePic {
+        height: auto;
+        width: 100%;
+    }
+
+    .projectWrapper {
+        width: 100%;
+    }
 
 }
 
