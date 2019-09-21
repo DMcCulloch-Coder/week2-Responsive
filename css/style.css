@@ -300,7 +300,8 @@ hr {
     }
 
     .textInput, .lineInput {
-        width: 100%;
+        width: 88%;
+
 
     }
 
@@ -316,11 +317,19 @@ hr {
     
     #profilePic {
         height: auto;
-        width: 100%;
+        width: 88%;
     }
 
     .projectWrapper {
-        width: 100%;
+        width: 88%;
+    }
+
+    #myName {
+        margin:0;
+    }
+
+    .navBar {
+        float: none;
     }
 
 }
