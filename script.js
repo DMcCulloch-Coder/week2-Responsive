@@ -1,15 +1,16 @@
 
 document.getElementById('submitButton').onclick = function (){
-   
-    let name = document.getElementById('name').value;
-    let email = document.getElementById('email').value;
-    let message = document.getElementById('message').value;
 
-    alert('ERROR! Please use e-mail link to contact user.')
+    const contact = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        message: document.getElementById('message').value,
+    }
 
-    //console.log(name + email + message)
+    // alert('ERROR! Please use e-mail link to contact user.')
 
-    //find a way to export this data
+    
 
 }
 
+module.exports = contact
